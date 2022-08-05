@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+	input[type=text], select {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+	
+	input[type=submit] {
+	  width: 100%;
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+	
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+	div {
+		  border-radius: 5px;
+		  padding: 20px;
+	}
+	h2{
+	text-align:center;
+	}
+	table{
+	margin-left:auto;
+	margin-right:auto;
+	}
+	td{
+	font-weight:bold;
+	}
+	
+	
+	
+</style>
+<body style="background-color:lightyellow;">
+<div>
+	<h2>Welcome to VNRVJIET SAP Portal</h2>
+	<form action="Register" method="post" class="intro">
+	<table>
+	<tr><td>Student Name: </td><td><input type="text" name="sname" placeholder="Enter Student Name"></td></tr>
+	<tr><td>Roll No: </td><td><input type="text" name="sroll" placeholder="Enter Student Roll"></td></tr>
+	<tr><td>1st Year CGPA: </td><td><input type="text" name="s1" placeholder="Enter Student 1st CGPA"></td></tr>
+	<tr><td>2nd Year CGPA: </td><td><input type="text" name="s2" placeholder="Enter Student 2nd CGPA"></td></tr>
+	<tr><td>3rd Year CGPA: </td><td><input type="text" name="s3" placeholder="Enter Student 3rd CGPA"></td></tr>
+	<tr><td>4th Year CGPA: </td><td><input type="text" name="s4" placeholder="Enter Student 4th CGPA"></td></tr>
+	<tr><td></td><td><input type="submit" value="Enter Data to DB"></td></tr>
+	</table>
+	</form>
+	
+</div>
+</body>
+</html>
